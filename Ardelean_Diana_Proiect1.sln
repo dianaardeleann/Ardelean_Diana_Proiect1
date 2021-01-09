@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ardelean_Diana_Proiect1", "Ardelean_Diana_Proiect1.csproj", "{88421705-C108-426E-9C97-FFE7D00A9881}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{88421705-C108-426E-9C97-FFE7D00A9881}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88421705-C108-426E-9C97-FFE7D00A9881}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88421705-C108-426E-9C97-FFE7D00A9881}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88421705-C108-426E-9C97-FFE7D00A9881}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A4F155FF-15C3-4683-930A-3B6171BAC21E}
+	EndGlobalSection
+EndGlobal

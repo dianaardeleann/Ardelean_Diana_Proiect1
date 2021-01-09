@@ -1,0 +1,50 @@
+﻿@page
+@model Ardelean_Diana_Proiect1.Pages.Plan.EditModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Plancs</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Plancs.ID" />
+            <div class="form-group">
+                <label asp-for="Plancs.Nume" class="control-label"></label>
+                <input asp-for="Plancs.Nume" class="form-control" />
+                <span asp-validation-for="Plancs.Nume" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Plancs.Oras" class="control-label"></label>
+                <input asp-for="Plancs.Oras" class="form-control" />
+                <span asp-validation-for="Plancs.Oras" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Plancs.Tara" class="control-label"></label>
+                <input asp-for="Plancs.Tara" class="form-control" />
+                <span asp-validation-for="Plancs.Tara" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Plancs.Perioada" class="control-label"></label>
+                <input asp-for="Plancs.Perioada" class="form-control" />
+                <span asp-validation-for="Plancs.Perioada" class="textdanger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="./Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
